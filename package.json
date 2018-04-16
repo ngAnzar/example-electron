@@ -1,0 +1,25 @@
+{
+  "name": "@anzar/example-browser",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "anzar-electron serve --config webpack.config.js --main dist/development/main.bundle.js",
+    "build": "anzar-electron build --config webpack.config.js --main dist/development/main.bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "dependencies": {
+    "@anzar/build": "github:ngAnzar/build",
+    "@anzar/build-electron": "github:ngAnzar/build-electron",
+    "@anzar/core": "ngAnzar/core"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.1",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
