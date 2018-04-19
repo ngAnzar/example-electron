@@ -1,5 +1,5 @@
 {
-    "extends": "./node_modules/@anzar/build-electron/tsconfig.json",
+    "extends": "./node_modules/@anzar/core/config/tsconfig.electron.json",
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {

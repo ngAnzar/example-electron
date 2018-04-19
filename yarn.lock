@@ -51,16 +51,13 @@
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/@angularclass/hmr/-/hmr-2.1.3.tgz#34e658ed3da37f23b0a200e2da5a89be92bb209f"
 
-"@anzar/build-electron@github:ngAnzar/build-electron":
+"@anzar/build-electron@ngAnzar/build-electron":
   version "1.0.0"
-  resolved "https://codeload.github.com/ngAnzar/build-electron/tar.gz/04f40fad1d7067b496b96e12d7897f429f98c4e1"
+  resolved "https://codeload.github.com/ngAnzar/build-electron/tar.gz/2bf92d46990456a75020d7f0ead57c52a0a9ddbb"
   dependencies:
     "@anzar/build" ngAnzar/build
-    async-exit-hook "^2.0.1"
-    cancellation "^1.1.0"
     electron "^1.8.4"
     html-webpack-plugin "^3.2.0"
-    minimist "^1.2.0"
     webpack-dev-server "^3.1.3"
 
 "@anzar/build@github:ngAnzar/build":
@@ -87,7 +84,7 @@
 
 "@anzar/build@ngAnzar/build":
   version "1.0.0"
-  resolved "https://codeload.github.com/ngAnzar/build/tar.gz/09bd5bfafd866f2e1026a1c8bc4ca32a88bb81e9"
+  resolved "https://codeload.github.com/ngAnzar/build/tar.gz/aad54e84a4810c0b040807aed9a35db750d17fdd"
   dependencies:
     "@anzar/style" "github:ngAnzar/style"
     angular2-template-loader "^0.6.2"

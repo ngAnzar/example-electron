@@ -16,7 +16,7 @@
   "dependencies": {
     "@anzar/build": "github:ngAnzar/build",
     "@anzar/build-electron": "github:ngAnzar/build-electron",
-    "@anzar/core": "ngAnzar/core"
+    "@anzar/core": "github:ngAnzar/core"
   },
   "devDependencies": {
     "typescript": "^2.8.1",
